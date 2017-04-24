@@ -9,6 +9,9 @@ Time tracker and Incognito Filter
 _________________________________
 
 ![alt screen1](images/scrn.png)
+![alt screen2](images/scrn2.png)
+![alt screen3](images/demo.gif)
+
 
 ## Files 
 
