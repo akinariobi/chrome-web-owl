@@ -1,6 +1,6 @@
 /**
  * Stores the time that is spent on each site.
- *
+ * //github.com/navjagpal
  * The primary interface to this class is through setCurrentFocus.
  */
 function Sites(config) {
