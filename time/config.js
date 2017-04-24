@@ -1,4 +1,4 @@
-/**
+/** //github.com/navjagpal
  * Read and modify various configuration parameters.
  *
  * Abstracts away the underlying storage mechanism.
