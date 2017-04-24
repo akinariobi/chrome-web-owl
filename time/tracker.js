@@ -1,6 +1,6 @@
 /**
  * Responsible for detecting focus change from tabs and windows.
- */
+ */ //github.com/navjagpal
 function Tracker(config, sites) {
   this._sites = sites;
   var self = this;
