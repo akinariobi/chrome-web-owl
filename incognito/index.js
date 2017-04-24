@@ -1,4 +1,4 @@
-function additem(){
+function additem(){ //https://github.com/pmsosa
 	console.log("adding...");
 	newitem = document.getElementById("newitem").value;
 	if (newitem.length <= 2){
