@@ -1,4 +1,8 @@
 # Google Chrome Extension : WebOWL
+[![TP6 SUJET](https://img.shields.io/badge/github-page-019cff.svg
+)](akinariobi.github.io/webowl)
+[![Build Status](https://travis-ci.org/akinariobi/chrome-web-owl.png)](https://travis-ci.org/akinariobi/chrome-web-owl)
+
 
 ### Time tracker + Incognito Filter
 
