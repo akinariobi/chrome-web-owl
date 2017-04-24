@@ -1,7 +1,32 @@
-language: node_js
+sudo: true
+dist: trusty
+
+language: "node_js"
 node_js:
-  - 6
-env:
-- MY_VAR=EverythignIsAwesome
-- NODE_ENV=TEST
-- secure: "TsYgfDTXM9DhteoxruftAIm9qbcVFTfBbPmi/Mv9lGkDKZ/b4pputXgbfy2On7dsu5s9Bio/P4Nri61sgVHZm6AJIsNWf2D6Ggiz94oddr0r+7dPp9yqTziPQAKNmMSzCtLff9Dl4BSOiasy/aQy5M+NrD6kXex0xjZyTIEndzk="
+  - "4"
+
+before_install:
+  - "npm -g install npm@latest"
+
+  - export CHROME_BIN=/usr/bin/google-chrome
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - sudo apt-get update
+  - sudo apt-get install -y libappindicator1 fonts-liberation
+  - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  - sudo dpkg -i google-chrome*.deb
+
+
+
+before_script:
+  - "npm run selenium-install"
+  - "npm run selenium-start &"
+  - "sleep 5"
+
+script:
+  - "npm test"
+
+addons:
+  hosts:
+    - fourth.third.second.first
+    - third.second.first
