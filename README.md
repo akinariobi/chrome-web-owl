@@ -8,9 +8,12 @@
 Time tracker and Incognito Filter
 _________________________________
 
+popup window screen
 ![alt screen1](images/scrn.png)
-![alt screen2](images/scrn2.png)
+incognito filter demo
 ![alt screen3](images/demo.gif)
+popup window demo
+![alt screen4](images/prev.gif)
 
 
 ## Files 
