@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body
+{
+	line-height: 2em;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+   
+}
+
+
+#stats
+{
+	font-family: 'Raleway', sans-serif;/*"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;*/
+	font-size: 12px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+
+}
+#stats th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px;
+	background-color: rgba(0,228,222, 0.46);
+    border: 1px solid white;
+	color: white;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+#stats tbody tr {
+  background-attachment:fixed;
+}
+#stats tr
+{
+	background: rgba(0,228,222, 0.4); 
+	border: 1px solid white;
+	color: #008298;
+}
+#stats td
+{
+	padding: 10px;
+}
+#stats tr:hover td
+{
+	background: rgba(0,196,228,0.5);
+	color: #00e4de;
+}
+#stats img
+{
+  padding-right: 8px;
+}
+#stats a:link,
+#stats a:visited
+{
+  text-decoration: none;
+  color: white;
+}
+#stats a:hover
+{
+  color: #00e4de;
+}
+#stats a:active
+{
+  color: whitesmoke;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+/* =================== BUTTONS ============== */
+
+.btn {
+    color: aliceblue;
+    background: transparent;
+    border: 2px solid white;
+    height: 24px;
+    width: auto;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* ================= INDEX ================== */
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    width: 300px;
+}
+
+body {
+    text-align: center;
+}
+
+select {
+    width: 500px;
+    height: 300px;
+}
+
+select option {
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
