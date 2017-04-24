@@ -1,0 +1,28 @@
+{
+  "name": "WebOWL",
+  "version": "0.1",
+  "description": "Time Tracker and Incognito Filter",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["config.js", "sites.js", "tracker.js", "background.js", "bg.js", "index.js"]
+  },
+  "permissions": [
+    "alarms",
+    "idle",
+    "tabs",
+    "history",
+    "storage",
+    "webRequestBlocking",
+    "webRequest",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "images/icon128.png",
+    "default_title": "WebOWL",
+    "default_popup": "popup.html"
+  },
+  "incognito":"not_allowed",
+  "options_page": "index.html",
+  "icons": { "16": "images/icon16.png", "48": "images/icon48.png",
+             "128": "images/icon128.png" }
+}
