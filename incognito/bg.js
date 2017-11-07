@@ -1,4 +1,3 @@
-//Blacklist //https://github.com/pmsosa
 var blacklist = [ ];
 var KEY = "HIDD3N"
 
