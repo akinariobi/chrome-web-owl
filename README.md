@@ -5,8 +5,8 @@
 [![Google Fonts](https://img.shields.io/badge/font-raleway-d100f8.svg)](https://fonts.google.com/specimen/Raleway)
 [![Download](https://img.shields.io/badge/webowl-download-f80098.svg)](https://github.com/akinariobi/chrome-web-owl/blob/master/webowl.zip)
 
-Time tracker and Incognito Filter
-_________________________________
+Time tracker and Incognito Filter for Google Chrome
+___________________________________________________
 
 ##### Popup window screen
 ![alt screen1](images/scrn.png)
