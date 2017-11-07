@@ -1,4 +1,4 @@
-function clearStats() { //github.com/navjagpal
+function clearStats() { 
   if (config.clearStatsInterval < 3600) {
     config.nextTimeToClear = 0;
     return;
