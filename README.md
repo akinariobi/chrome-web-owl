@@ -1,8 +1,7 @@
 # Google Chrome Extension : WebOWL
 [![Website](https://img.shields.io/badge/github-page-019cff.svg
 )](https://akinariobi.github.io/webowl/)
-[![Codepen Gradient](https://img.shields.io/badge/codepen-gradient%20background-01dcff.svg)](http://codepen.io/pinto165/pen/pyBNzX)
-[![Google Fonts](https://img.shields.io/badge/font-raleway-d100f8.svg)](https://fonts.google.com/specimen/Raleway)
+[![Maintainability](https://api.codeclimate.com/v1/badges/fb14bb5b3ef6d15e4b20/maintainability)](https://codeclimate.com/github/akinariobi/chrome-web-owl/maintainability)
 [![Download](https://img.shields.io/badge/webowl-download-f80098.svg)](https://github.com/akinariobi/chrome-web-owl/blob/master/webowl.zip)
 
 Time tracker and Incognito Filter for Google Chrome
